@@ -69,13 +69,13 @@ li{
         text-decoration: underline;
     }
     .select{
-        margin-top: 50px;
+        margin-top: 100px;
         font-size: 2rem;
     }
 /* selection part */
 .object{
     height: 500px;
-    margin-top: 200px;
+    margin-top: 100px;
     width: 100%;
     
  
@@ -83,6 +83,7 @@ li{
 .mini-object{
     background-color: var(--secondcolor);
     text-align: center;
+    border-radius: 50px;
     border: 1px solid black;
     flex-basis: 25%;
     height: 80px;
