@@ -82,8 +82,9 @@ li{
 }
 .mini-object{
     background-color: var(--secondcolor);
+    margin-top: 25px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 1px solid black;
     flex-basis: 25%;
     height: 80px;
