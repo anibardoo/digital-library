@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+/* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: black;
+    background-color: var(--bgcolor);
+    background-image: url(../pngs/asset\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-attachment: fixed;
+    background-position: center;     
+    font-family: var(--mtext);
+}
+h1{
+
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    
+}
+
+:root{
+    --bgcolor:#2DC7FF;
+    --secondcolor:#EABA6B;
+    --inputcolor:#EAD2AC;
+    --mtext:'roboto slab';
+}
+
+
+
+/* utility class */
+.container{
+    max-width:1180px;
+    margin-inline:auto;
+    
+    }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    /* top banner */
+    .header-text{
+        background-color: var(--secondcolor);
+        text-align: center;
+        padding: 15px 30px;
+        text-decoration: underline;
+    }
+    .select{
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+/* selection part */
+.object{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.mini-object{
+    background-color: var(--secondcolor);
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    padding-top: 80px;
+    box-shadow: 5px 5px #00000073;
+    transition-duration: 0.3s;
+}
+.mini-object:hover{
+    transition-duration: 0.3s;
+    box-shadow: 10px 10px #00000073;
+
+}
+
+
+

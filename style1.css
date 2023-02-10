@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+/* reset */
+
+:root{
+    --bgcolor:#2DC7FF;
+    --secondcolor:#EABA6B;
+    --inputcolor:#EAD2AC;
+    --mtext:'roboto slab';
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+body{
+    background-color: var(--bgcolor);
+
+    font-family: 'roboto slab', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/* utility class */
+.container{
+max-width: 1180px;
+margin-inline:auto;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* top banner */
+.header-text{
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: underline;
+}
+
+
+/* header */
+img{
+    width: 600px;
+    
+
+}
+
+/* form */
+.logo{
+    width: 100px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+.in{
+    background-color: var(--secondcolor);
+    padding-left: 20px;
+    width: 200px;
+    height: 25px;
+    border: 0.3px solid black;
+    border-radius: 6px;
+    transition-duration: 0.3s;
+}
+.in:hover{
+    width: 205px;
+    height: 27px; 
+    transition-duration: 0.3s;
+}
+
+
+.content{
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.from{
+    background-color: var(--inputcolor);
+    margin-right: 50px;
+    border: 0.3px solid black;
+    border-radius: 5px;
+    height: 550px;
+    width: 339px;
+    transition-duration: 0.5s;
+}
+.inner{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.from:hover{
+    transition-duration: 0.5s;
+    margin-right: 60px;
+    box-shadow: 5px 5px #00000073;
+}
+.primary{
+    border: 0.3px solid black;
+    color: black;
+    background-color: var(--secondcolor);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 47px;
+    padding: 4px 25px;
+    transition-duration: 0.3s;
+}
+.primary:hover{
+    transition-duration: 0.3s;
+    padding: 6px 27px;
+}
+.primary:active{
+    background-color:#00000073;
+}
+
+.up{
+    margin-top: 155px;
+}
+.up a{
+    color: #1900ff;
+}
+
+
+
+
+/* selection page */
